@@ -18,6 +18,9 @@ class Graph {
 		//Takes an array of x and a function
 		Graph(const std::vector<double> &x, std::function<double(double)> fn, const sf::Color &color = sf::Color::Blue);
 
+		//Takes a vector of vertices
+		Graph(const std::vector<sf::Vertex> &vertices, const sf::Color &color = sf::Color::Blue);
+
 		~Graph();
 
 		void set_color(const sf::Color &color) { this->color = color; }

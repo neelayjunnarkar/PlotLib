@@ -23,6 +23,14 @@ color{color}
 		vertices.push_back(sf::Vertex({(float)e, (float)fn(e)}, color));
 }
 
+Graph::Graph(const std::vector<sf::Vertex> &vertices, const sf::Color &color) :
+vertices(vertices),
+color{color}
+{
+
+}
+
+
 Graph::~Graph() {
 
 }
