@@ -1,0 +1,102 @@
+﻿Build started 7/28/2015 8:53:15 PM.
+     1>Project "C:\Users\NEELAY\documents\visual studio 2013\Projects\PlotLib\PlotLib\PlotLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\\SFML-2.3.1-32\SFML-2.3.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\neelay\documents\visual studio 2013\projects\plotlib\plotlib\main.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\neelay\documents\visual studio 2013\projects\plotlib\plotlib\main.cpp(25): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\neelay\documents\visual studio 2013\projects\plotlib\plotlib\main.cpp(40): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xrefwrap(283): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(228) : see reference to function template instantiation '_Ret std::_Callable_obj<float (__cdecl *)(float),false>::_ApplyX<_Rx,_Ty>(_Ty &&)' being compiled
+                 with
+                 [
+                     _Ret=double
+         ,            _Rx=double
+         ,            _Ty=double
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(228) : see reference to function template instantiation '_Ret std::_Callable_obj<float (__cdecl *)(float),false>::_ApplyX<_Rx,_Ty>(_Ty &&)' being compiled
+                 with
+                 [
+                     _Ret=double
+         ,            _Rx=double
+         ,            _Ty=double
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(226) : while compiling class template member function 'double std::_Func_impl<_MyWrapper,_Alloc,_Ret,double>::_Do_call(double &&)'
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Func_class<double,double>>
+         ,            _Ret=double
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(495) : see reference to class template instantiation 'std::_Func_impl<_MyWrapper,_Alloc,_Ret,double>' being compiled
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Func_class<double,double>>
+         ,            _Ret=double
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(396) : see reference to function template instantiation 'void std::_Func_class<_Ret,double>::_Do_alloc<_Myimpl,_Fx(__cdecl &),_Alloc>(_Fty,_Alloc)' being compiled
+                 with
+                 [
+                     _Ret=double
+         ,            _Fx=float (float)
+         ,            _Alloc=std::allocator<std::_Func_class<double,double>>
+         ,            _Fty=float (__cdecl &)(float)
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(396) : see reference to function template instantiation 'void std::_Func_class<_Ret,double>::_Do_alloc<_Myimpl,_Fx(__cdecl &),_Alloc>(_Fty,_Alloc)' being compiled
+                 with
+                 [
+                     _Ret=double
+         ,            _Fx=float (float)
+         ,            _Alloc=std::allocator<std::_Func_class<double,double>>
+         ,            _Fty=float (__cdecl &)(float)
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(385) : see reference to function template instantiation 'void std::_Func_class<_Ret,double>::_Reset_alloc<_Fx(__cdecl &),std::allocator<std::_Func_class<_Ret,double>>>(_Fty,_Alloc)' being compiled
+                 with
+                 [
+                     _Ret=double
+         ,            _Fx=float (float)
+         ,            _Fty=float (__cdecl &)(float)
+         ,            _Alloc=std::allocator<std::_Func_class<double,double>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(385) : see reference to function template instantiation 'void std::_Func_class<_Ret,double>::_Reset_alloc<_Fx(__cdecl &),std::allocator<std::_Func_class<_Ret,double>>>(_Fty,_Alloc)' being compiled
+                 with
+                 [
+                     _Ret=double
+         ,            _Fx=float (float)
+         ,            _Fty=float (__cdecl &)(float)
+         ,            _Alloc=std::allocator<std::_Func_class<double,double>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(579) : see reference to function template instantiation 'void std::_Func_class<_Ret,double>::_Reset<_Fx(__cdecl &)>(_Fty)' being compiled
+                 with
+                 [
+                     _Ret=double
+         ,            _Fx=float (float)
+         ,            _Fty=float (__cdecl &)(float)
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\functional(579) : see reference to function template instantiation 'void std::_Func_class<_Ret,double>::_Reset<_Fx(__cdecl &)>(_Fty)' being compiled
+                 with
+                 [
+                     _Ret=double
+         ,            _Fx=float (float)
+         ,            _Fty=float (__cdecl &)(float)
+                 ]
+                 c:\users\neelay\documents\visual studio 2013\projects\plotlib\plotlib\main.cpp(82) : see reference to function template instantiation 'std::function<double (double)>::function<float(float)>(_Fx (__cdecl &))' being compiled
+                 with
+                 [
+                     _Fx=float (float)
+                 ]
+                 c:\users\neelay\documents\visual studio 2013\projects\plotlib\plotlib\main.cpp(82) : see reference to function template instantiation 'std::function<double (double)>::function<float(float)>(_Fx (__cdecl &))' being compiled
+                 with
+                 [
+                     _Fx=float (float)
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\NEELAY\documents\visual studio 2013\Projects\PlotLib\Debug\PlotLib.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.3.1-32\SFML-2.3.1\lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-graphics-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\NEELAY\documents\visual studio 2013\Projects\PlotLib\Debug\PlotLib.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\NEELAY\documents\visual studio 2013\Projects\PlotLib\Debug\PlotLib.lib" /MACHINE:X86 Debug\Axis.obj
+         Debug\Graph.obj
+         Debug\main.obj
+         Debug\Plot.obj
+         PlotLib.vcxproj -> C:\Users\NEELAY\documents\visual studio 2013\Projects\PlotLib\Debug\PlotLib.exe
+     1>Done Building Project "C:\Users\NEELAY\documents\visual studio 2013\Projects\PlotLib\PlotLib\PlotLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.67
