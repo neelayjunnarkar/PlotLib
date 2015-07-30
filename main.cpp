@@ -3,7 +3,6 @@
 #include <algorithm>
 #include <tuple>
 #include <SFML/Graphics.hpp>
-
 #include "Plot.h"
 
 struct Range {
@@ -31,7 +30,7 @@ std::tuple<sf::Vector2f, std::vector< std::vector<sf::Vector2f>>> grid(sf::Vecto
 
 
 int main() {
-
+	
 	sf::Vector2f screen_dim{720, 720};
 	
 	sf::ContextSettings settings;
@@ -81,7 +80,7 @@ int main() {
 	Graph slope1{x, x, sf::Color{13, 105, 235}};
 	Graph log{x, std::log10f, sf::Color{236, 80, 42}};
 	Graph sin{x, std::sinf, sf::Color::Magenta};
-
+		
 	plot.add_graph(slope1);
 	plot.add_graph(log);
 	plot.add_graph(sin);

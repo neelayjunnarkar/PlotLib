@@ -1,3 +1,10 @@
+#my additions
+*.tlog
+*.lastbuildstate
+*.obj
+*.idb
+*.pdb
+
 # Compiled Object files
 *.slo
 *.lo
